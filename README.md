@@ -1,17 +1,16 @@
 <div align="center">
   <p> 
-    <a href="https://discord.gg/FQGXbypRf8" title="Join our Discord Server"><img alt="Built with Love" src="https://forthebadge.com/images/badges/built-with-love.svg"></a>
-    <a href="https://discord.gg/FQGXbypRf8" title="Join our Discord Server"><img alt="Made with Javascript" src="https://forthebadge.com/images/badges/made-with-javascript.svg"></a>
+    <a href="https://discord.gg/PMbNfVSa" title="Join our Discord Server"><img alt="Built with Love" src="https://forthebadge.com/images/badges/built-with-love.svg"></a>
+    <a href="https://discord.gg/PMbNfVSa" title="Join our Discord Server"><img alt="Made with Javascript" src="https://forthebadge.com/images/badges/made-with-javascript.svg"></a>
   </p>
   <p>
-    <a href="https://discord.gg/FQGXbypRf8"><img src="https://discord.com/api/guilds/773668217163218944/embed.png" alt="Discord server"/></a>
-    <a href="https://www.npmjs.com/package/discord-yt-poster"><img src="https://img.shields.io/npm/v/discord-yt-poster.svg?maxAge=3600" alt="NPM version" /></a>
-    <a href="https://www.npmjs.com/package/discord-yt-poster"><img src="https://img.shields.io/npm/dt/discord-yt-poster.svg?maxAge=3600" alt="NPM downloads" /></a>
-    <a href="https://discord.gg/FQGXbypRf8"><img src="https://maintained.cc/SDBagel/Maintained/2?" alt="Get Started Now"></a>
-    <a href="https://www.patreon.com/MilratoDevelopment?fan_landing=true"><img src="https://img.shields.io/badge/donate-patreon-F96854.svg" alt="Patreon" /></a>
+    <a href="https://discord.gg/PMbNfVSa"><img src="https://discord.com/api/guilds/773668217163218944/embed.png" alt="Discord server"/></a>
+    <a href="https://www.npmjs.com/package/dashserv.io"><img src="https://img.shields.io/npm/v/dashserv.io.svg?maxAge=3600" alt="NPM version" /></a>
+    <a href="https://www.npmjs.com/package/dashserv.io"><img src="https://img.shields.io/npm/dt/dashserv.io.svg?maxAge=3600" alt="NPM downloads" /></a>
+    <a href="https://discord.gg/PMbNfVSa"><img src="https://maintained.cc/SDBagel/Maintained/2?" alt="Get Started Now"></a>
   </p>
   <p>
-    <a href="https://nodei.co/npm/discord-yt-poster/"><img src="https://nodei.co/npm/discord-yt-poster.png?downloads=true&stars=true" alt="npm installnfo" /></a>
+    <a href="https://nodei.co/npm/dashserv.io/"><img src="https://nodei.co/npm/dashserv.io.png?downloads=true&stars=true" alt="npm installnfo" /></a>
   </p>
 </div>
 
@@ -44,7 +43,7 @@ DashServ.vServer.shutdownServer()
   .then(console.log);
 ```
 
-## 📫 **Join [Discord Server](https://discord.gg/FQGXbypRf8) for Support**
+## 📫 **Join [Discord Server](https://discord.gg/PMbNfVSa) for Support**
 
 ***
 
