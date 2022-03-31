@@ -72,27 +72,29 @@ const DashServ = new DashServApi("API-TOKEN");
 # Methods:
 
 ## Dedicated Servers
-
+```js
+// Currently - none
+```
 ## V-Servers
 ```js
 // Lists all vservers in your account
 await DashServ.vServer.getAll(); 
 // Lists a the single vserver
-await DashServ.vServer.getSingleServer(ServerId);
-
+await DashServ.vServer.getServerData(ServerId);
+// List all available images
 await DashServ.vServer.getAvailableImages();
-
+// Show Status of a Vserver
 await DashServ.vServer.getStatus(ServerId);
-
+// Changes the Resources of cpu, ram and disk amount, if configurated server (+- € + autorestarts)
 await DashServ.vServer.changeResource(ServerId, newCpuAmount, newRamAmount, newDiskAmount);
-
+// Starts the Server
 await DashServ.vServer.startServer(ServerId);
-
+// shutdowns the Server
 await DashServ.vServer.shutdownServer(ServerId);
+// stops the Server
+await DashServ.vServer.stopServer(ServerId);
+// restart the Server
+await DashServ.vServer.restartServer(ServerId);
 
-await DashServ.vServer.forceShutdownServer(ServerId);
-
-await DashServ.vServer.gracefullyRestartServer(ServerId);
-
-await DashServ.vServer.forcefullyResetServer(ServerId);
+await DashServ.vServer.forceResetServer(ServerId);
 ```
