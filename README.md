@@ -68,3 +68,31 @@ const DashServ = new DashServApi("API-TOKEN");
   }
 })();
 ```
+
+# Methods:
+
+## Dedicated Servers
+
+## V-Servers
+```js
+// Lists all vservers in your account
+await DashServ.vServer.getAll(); 
+// Lists a the single vserver
+await DashServ.vServer.getSingleServer(ServerId);
+
+await DashServ.vServer.getAvailableImages();
+
+await DashServ.vServer.getStatus(ServerId);
+
+await DashServ.vServer.changeResource(ServerId, newCpuAmount, newRamAmount, newDiskAmount);
+
+await DashServ.vServer.startServer(ServerId);
+
+await DashServ.vServer.shutdownServer(ServerId);
+
+await DashServ.vServer.forceShutdownServer(ServerId);
+
+await DashServ.vServer.gracefullyRestartServer(ServerId);
+
+await DashServ.vServer.forcefullyResetServer(ServerId);
+```
