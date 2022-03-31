@@ -1,0 +1,31 @@
+{
+  "name": "dashserv.io",
+  "version": "0.0.1",
+  "description": "The official Api Wrapper for www.dashserv.io",
+  "main": "index.js",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/tomato6966/dashserv.io"
+  },
+  "homepage": "https://github.com/Tomato6966/dashserv.io/wiki/",
+  "keywords": [
+    "dashserv.io",
+    "api",
+    "json"
+  ],
+  "author": "tomato6966",
+  "bugs": {
+    "url": "https://github.com/tomato6966/dashserv.io/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
