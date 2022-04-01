@@ -34,11 +34,11 @@ DashServ.vServer.getAll()
   .catch(console.error) // don't forget to catch errors!
   .then(console.log);
 // start Server:
-DashServ.vServer.start() 
+DashServ.vServer.start("ServerId") 
   .catch(console.error) // don't forget to catch errors!
   .then(console.log);
 // stop Server:
-DashServ.vServer.shutdownServer() 
+DashServ.vServer.shutdownServer("ServerId") 
   .catch(console.error) // don't forget to catch errors!
   .then(console.log);
 ```
