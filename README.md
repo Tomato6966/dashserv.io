@@ -71,12 +71,21 @@ const DashServ = new DashServApi("API-TOKEN");
 
 # Methods:
 
+## Order / Product
+```js
+// Currently - none
+```
 ## Dedicated Servers
 ```js
 // Currently - none
 ```
 ## V-Servers
 ```js
+// PROPERTY: Shows all validActions
+DashServ.vServer.validActions
+/**
+ * METHODS:
+*/
 // Lists all vservers in your account
 await DashServ.vServer.getAll(); 
 // Lists a the single vserver
@@ -95,6 +104,28 @@ await DashServ.vServer.shutdownServer(ServerId);
 await DashServ.vServer.stopServer(ServerId);
 // restart the Server
 await DashServ.vServer.restartServer(ServerId);
-
+// Resets a Server to default image
 await DashServ.vServer.forceResetServer(ServerId);
+// reinstalls the server and restarts it with the new image
+await DashServ.vServer.reinstallServer(ServerId, image);
+// resets the root password
+await DashServ.vServer.resetPassword(ServerId);
+// Shows all backups
+await DashServ.vServer.listBackups(ServerId);
+// Creates a backup with a custom name
+await DashServ.vServer.createBackup(ServerId, name);
+// deletes a created backup with a backup id
+await DashServ.vServer.deleteBackup(ServerId, backupUuid);
+// restores a backup of a backup id and restarts the server
+await DashServ.vServer.restoreBackup(ServerId, backupUuid);
+// get all tasks
+await DashServ.vServer.getTasks(ServerId);
+// get all scheduled tasks
+await DashServ.vServer.getScheduledTasks(ServerId);
+// create a scheduled task, with a interval and a command (and a optimal nextexecution : timestamp)
+await DashServ.vServer.createScheduledTask(ServerId, interval, command, nextexecution[optionial]);
+// delete a scheduled task
+await DashServ.vServer.deleteScheduledTask(ServerId, taskuuid);
+// get all Graphs of a specific timeframe!
+await DashServ.vServer.getGraphs(ServerId, timeframe);
 ```
